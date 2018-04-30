@@ -1,0 +1,15 @@
+server:
+  port: 7999
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+      username: root
+      password: b4tm4n
