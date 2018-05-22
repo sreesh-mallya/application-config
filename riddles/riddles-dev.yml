@@ -1,5 +1,5 @@
 server:
-	port: 8000
+  port: 8000
 
 welcome:
-	message: Running on ${server.port}!
+  message: Running on ${server.port}!
