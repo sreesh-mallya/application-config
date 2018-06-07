@@ -8,4 +8,4 @@ spring:
           brokers: localhost:29092,localhost:39092,localhost:49092
           zkNodes: localhost:22181
 
-message: webhooked!
+message: webhooked, bro!
