@@ -9,3 +9,9 @@ spring:
           zkNodes: localhost:22181
 
 message: webhooked, bro!
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
