@@ -1,5 +1,7 @@
 spring:
   cloud:
+    refresh:
+      refreshable: none
     stream:
       kafka:
         binder:
