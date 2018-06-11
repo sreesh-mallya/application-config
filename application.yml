@@ -3,8 +3,8 @@ spring:
     stream:
       kafka:
         binder:
-          brokers: localhost:29092,localhost:39092,localhost:49092
-          zkNodes: localhost:22181
+          brokers: localhost:9092
+          zkNodes: localhost:2181
 
 management:
   endpoints:
