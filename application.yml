@@ -1,5 +1,8 @@
 spring:
   cloud:
+    bus:
+      trace:
+        enabled: true
     stream:
       kafka:
         binder:
