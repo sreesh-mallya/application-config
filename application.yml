@@ -6,8 +6,8 @@ spring:
     stream:
       kafka:
         binder:
-          brokers: https://e204c23c.ngrok.io/
-          zkNodes: https://c984f5c2.ngrok.io/
+          brokers: 192.168.10.38:9092
+          zkNodes: 192.168.10.38:2181
 
 management:
   endpoints:
