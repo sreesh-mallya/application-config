@@ -6,8 +6,8 @@ spring:
     stream:
       kafka:
         binder:
-          brokers: 192.168.10.38:29092,192.168.10.38:39092,192.168.10.38:49092
-          zkNodes: 192.168.10.38:22181
+          brokers: 192.168.10.38:9092
+          zkNodes: 192.168.10.38:2181
 
 management:
   endpoints:
